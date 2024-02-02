@@ -12,13 +12,18 @@ $(document).ready(function () {
             return;
         }
         console.log(username);
-        //password should have only small letters and numbers
+
+        if (!username.match(/^[A-Z][a-z]+$/)) {
+            alert("Username should start with capital letter");
+            return;
+        }
+
         if (!password.match(/^[a-z0-9]+$/)) {
             alert("Password should have only small letters and numbers");
             return;
         }
 
-        if (username == "admin" && password == "admin") {
+        if (username == "Admin" && password == "admin123") {
             alert("Login successful");
             window.location.href = "home.html"; // Redirecting to other page.
         } else {
