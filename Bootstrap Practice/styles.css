@@ -1,0 +1,266 @@
+body{
+    background-color: #080808;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.bg-image {
+    background-image: url("images/bgimage.jpg");
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-image::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 236, 63, 0.4);
+    pointer-events: none;
+}
+
+.bg-image h1,
+.bg-image p,
+.bg-image button {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-image h1,
+.bg-image p {
+  color: #181818;
+  font-weight: 700;
+}
+
+.bg-image button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #181818;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.bg-image button:hover {
+  background-color: #181818;
+  color: #fff;
+}
+
+.container h2{
+    margin-top: 20px;
+}
+
+.card {
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-body{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.card img {
+    transition: border-color 0.3s ease;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .green-background {
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White icon color */
+  }
+
+  .fas {
+    font-size: 40px;
+  }
+
+  .about-us{
+    background-color: rgba(166, 166, 166, 0.5);
+  }
+  .about-us .container{
+    margin: 50px auto;
+    padding: 50px;
+  }
+
+  .about-us .row{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-us .col-md-6{
+    width: 48%;
+  }
+
+  .about-us img.img-fluid{
+    width: 100%;
+    height: auto
+  }
+
+  .about-us .text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 40px;
+    text-align: left;
+  }
+
+    .about-us h2
+    .about-us p
+    {
+        color: #181818;
+    }
+
+    .carousel-item {
+        height: 200px;
+        justify-content: space-between;
+      }
+      
+      .carousel-item h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+      }
+      
+      .carousel-control-prev,
+      .carousel-control-next {
+        filter: brightness(0.5);
+      }
+      
+      .carousel-control-prev:hover,
+      .carousel-control-next:hover {
+        filter: brightness(0);
+      }
+
+      .carousel-item .row{
+        padding: 0 3rem 0 3rem;
+        margin: 0 3rem 0 3rem;
+      }
+      
+.circle-profile {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+      .black-background {
+        background-color: #000; /* Black background color */
+        color: #fff; /* White icon color */
+      }
+
+      .subscribe{
+        background-color: #4CAF50;
+      }
+      .subscribe .container{
+        margin-top: 50px;
+      }
+
+      .subscribe button {
+        padding: 10px 20px;
+        background-color: #fff;
+        color: #181818;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      
+      .subscribe button:hover {
+        background-color: #181818;
+        color: #fff;
+      }
+
+      .subscribe .form-control::placeholder {
+        color: #fff;
+      }
+
+      .company .list-unstyled li a{
+        color: #181818;
+      }
+
+      .company .fab{
+        font-size: 20px;
+        color: #181818;
+      }
+
+      footer{
+        background-color: #181818;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+
+      @media screen and (max-width: 750px) {
+        .navbar-nav .nav-item{
+          margin-right: 10px;
+        }
+        .navbar-nav .last{
+          margin-right: 0;
+        }
+        .about-us .container {
+            flex-direction: column;
+        }
+        .about-us-text, .about-us-image {
+            flex-basis: 100%;
+        }
+    
+        .about-us-image{
+            order: -1;
+        }
+
+        .carousel-item{
+            height: auto;
+        }
+
+        .carousel-item h2, .carousel-item p{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+          }
+
+        .carousel-item .row{
+          padding: 0 ;
+          margin: 0 1rem 0 1rem;
+        }
+        
+    }
+    
