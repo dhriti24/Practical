@@ -16,10 +16,14 @@ Static webpage with login feature implemented using JavaScript. A page using HTM
 
 ## Photos
 
-![Login](./img/your-image.jpg)
-![Home Page](./img/your-image.jpg)
-![Catalog](./img/your-image.jpg)
+![Login](https://github.com/dhriti24/Practical/blob/main/Screenshot/HTML%20Javascript/login.png)
+![Home Page](https://github.com/dhriti24/Practical/blob/main/Screenshot/HTML%20Javascript/Home.png)
+![Catalog](https://github.com/dhriti24/Practical/blob/main/Screenshot/HTML%20Javascript/Catalog.png)
 
 ## Getting Started
+
+Login credentials:
+Username : Admin
+Password : admin123
 
 # Open index.html in your browser

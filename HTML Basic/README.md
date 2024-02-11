@@ -2,17 +2,6 @@
 
 HTML and CSS Practice
 
-## Table of Contents
-
--   [Project Overview](#project-overview)
--   [Features](#features)
--   [Demo](#demo)
--   [Getting Started](#getting-started)
--   [Usage](#usage)
--   [Folder Structure](#folder-structure)
--   [Contributing](#contributing)
--   [License](#license)
-
 ## Project Overview
 
 A static webpage with HTML and CSS implementation
@@ -25,7 +14,7 @@ A static webpage with HTML and CSS implementation
 
 ## Photos
 
-![Website](./img/your-image.jpg)
+![Website](https://github.com/dhriti24/Practical/blob/main/Screenshot/HTML%20Basic/Home.png)
 
 ## Getting Started
 
